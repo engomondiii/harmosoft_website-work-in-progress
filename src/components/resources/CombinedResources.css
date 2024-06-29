@@ -1,0 +1,11 @@
+/* src/components/resources/CombinedResources.css */
+
+.combined-resources {
+    padding: 60px 20px;
+    background-color: #F0F0F0;
+  }
+  
+  .combined-resources > * {
+    margin-bottom: 40px;
+  }
+  

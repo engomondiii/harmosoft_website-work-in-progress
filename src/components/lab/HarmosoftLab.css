@@ -1,0 +1,46 @@
+/* src/components/lab/HarmosoftLab.css */
+
+.harmosoft-lab {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .harmosoft-lab .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .harmosoft-lab h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .harmosoft-lab p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .harmosoft-lab h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .harmosoft-lab ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .harmosoft-lab ul li {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .harmosoft-lab ul li ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .harmosoft-lab ul li ul li {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,58 @@
+/* src/components/accessibility/AccessibilityOptions.css */
+
+.accessibility-options {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #2D3142;
+  }
+  
+  .accessibility-options .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .accessibility-headline {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .option {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .option label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .option select,
+  .option input[type="checkbox"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .high-contrast {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+  .high-contrast a {
+    color: #FFD700;
+  }
+  
+  .high-contrast .option label {
+    color: #FFD700;
+  }
+  
+  .high-contrast .option select,
+  .high-contrast .option input[type="checkbox"] {
+    background-color: #333333;
+    color: #FFFFFF;
+    border-color: #FFD700;
+  }
+  

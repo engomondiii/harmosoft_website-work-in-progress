@@ -1,0 +1,42 @@
+/* src/components/notFound/NotFound.css */
+
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+    color: #2D3142;
+    text-align: center;
+  }
+  
+  .not-found .container {
+    max-width: 600px;
+  }
+  
+  .not-found-headline {
+    font-size: 72px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home-link {
+    font-size: 18px;
+    color: #2D3142;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #2D3142;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .home-link:hover {
+    background-color: #2D3142;
+    color: #FFFFFF;
+  }
+  

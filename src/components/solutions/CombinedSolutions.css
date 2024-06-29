@@ -1,0 +1,11 @@
+/* src/components/solutions/CombinedSolutions.css */
+
+.combined-solutions {
+    padding: 60px 20px;
+    background-color: #F0F0F0;
+  }
+  
+  .combined-solutions > * {
+    margin-bottom: 40px;
+  }
+  

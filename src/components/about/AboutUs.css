@@ -1,0 +1,59 @@
+/* src/components/about/AboutUs.css */
+
+.about-us {
+  background: url('/src/assets/images/imagesss.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.floating-plate {
+  background: rgba(255, 255, 255, 0.5); /* Increased transparency */
+  border-radius: 10px;
+  padding: 10px; /* Reduced padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 200px; /* Further reduced size */
+  width: 100%;
+  transition: transform 0.3s, max-width 0.3s, height 0.3s;
+  overflow: hidden;
+  position: relative;
+  flex: 1 1 200px; /* Allow plates to align horizontally and wrap */
+}
+
+.floating-plate > *:first-child {
+  margin-top: 0;
+}
+
+.floating-plate > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .about-us {
+    flex-direction: column; /* Stack plates vertically on small screens */
+    align-items: center; /* Center the plates */
+  }
+
+  .floating-plate {
+    max-width: 90%; /* Make plates wider on small screens */
+    flex: 1 1 90%; /* Adjust flex basis */
+    margin: 10px 0; /* Add some margin between the plates */
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-plate {
+    max-width: 100%; /* Full width on very small screens */
+    flex: 1 1 100%; /* Adjust flex basis */
+    margin: 10px 0; /* Add some margin between the plates */
+  }
+
+  .floating-plate {
+    padding: 8px; /* Reduce padding for small screens */
+  }
+}

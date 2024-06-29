@@ -1,0 +1,58 @@
+/* src/components/contact/OfficeLocations.css */
+
+.office-locations {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #2D3142;
+  }
+  
+  .office-locations .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .locations-headline {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .locations-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .location-item {
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-city {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .location-address {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .location-map-link {
+    color: #2D3142;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .location-map-link:hover {
+    color: #FFD700;
+  }
+  

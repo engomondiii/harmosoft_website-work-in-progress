@@ -1,0 +1,68 @@
+/* src/components/interactive/InteractiveDemos.css */
+
+.interactive-demos {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #2D3142;
+  }
+  
+  .interactive-demos .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .demos-headline {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .demos-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .demos-list {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+  }
+  
+  .demo-item {
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .demo-item.active,
+  .demo-item:hover {
+    background-color: #2D3142;
+    color: #FFFFFF;
+    border-color: #FFD700;
+  }
+  
+  .demo-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .demo-description {
+    font-size: 16px;
+  }
+  
+  .demo-video {
+    flex: 2;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

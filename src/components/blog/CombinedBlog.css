@@ -1,0 +1,11 @@
+/* src/components/blog/CombinedBlog.css */
+
+.combined-blog {
+    padding: 60px 20px;
+    background-color: #F0F0F0;
+  }
+  
+  .combined-blog > * {
+    margin-bottom: 40px;
+  }
+  

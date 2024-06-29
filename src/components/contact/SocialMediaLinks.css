@@ -1,0 +1,64 @@
+/* src/components/contact/SocialMediaLinks.css */
+
+.social-media-links {
+  padding: 60px 20px;
+  background-color: #FFFFFF;
+  color: #2D3142;
+}
+
+.social-media-links .container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-media-headline {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-media-link {
+  text-decoration: none;
+  color: #2D3142;
+  font-size: 36px; /* Increased font size for better visibility */
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.social-media-link:hover {
+  transform: scale(1.1);
+}
+
+.social-media-link i {
+  font-size: 36px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #FFFFFF;
+}
+
+.social-media-link .fa-facebook {
+  background-color: #3b5998;
+}
+
+.social-media-link .fa-twitter {
+  background-color: #1DA1F2;
+}
+
+.social-media-link .fa-linkedin {
+  background-color: #0077b5;
+}
+
+.social-media-link .fa-instagram {
+  background-color: #E4405F;
+}
+
+.social-media-platform {
+  display: none;
+}

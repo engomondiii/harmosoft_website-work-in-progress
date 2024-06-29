@@ -1,0 +1,19 @@
+/* src/components/services/CombinedServices.css */
+
+.combined-services {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #2D3142;
+  }
+  
+  .combined-services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .combined-services-headline {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  

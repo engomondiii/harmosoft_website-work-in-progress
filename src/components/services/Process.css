@@ -1,0 +1,97 @@
+/* src/components/services/Process.css */
+
+.process {
+  padding: 60px 20px;
+  background-color: #F0F0F0;
+  color: #2D3142;
+  width: 100%;
+}
+
+.process .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.process-headline {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.process-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 40px; /* Increase the distance between the plates */
+}
+
+.process-step {
+  background-color: #FFFFFF;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 40px;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.process-step:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.step-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2D3142;
+}
+
+.step-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.arrow-icon {
+  font-size: 30px;
+  color: #2D3142;
+  margin: 0 20px; /* Increase the margin for better spacing */
+  align-self: center;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .process-steps {
+    flex-direction: column;
+    gap: 20px; /* Adjust the gap for smaller screens */
+  }
+
+  .arrow-icon {
+    display: none; /* Hide arrows on small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .process-step {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .step-title {
+    font-size: 18px;
+  }
+
+  .step-description {
+    font-size: 12px;
+  }
+}

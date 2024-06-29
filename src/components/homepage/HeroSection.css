@@ -1,0 +1,118 @@
+/* src/components/homepage/HeroSection.css */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #2D3142;
+  color: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 98vh; /* Adjust height as needed */
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(45, 49, 66, 0.7); /* Optional overlay to enhance text readability */
+}
+
+.hero-section .container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 1; /* Ensure content is above the overlay */
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.hero-headline {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-cta-button {
+  background-color: #FFD700;
+  color: #2D3142;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero-cta-button:hover {
+  background-color: #FFC107;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 20px;
+    min-height: 80vh; /* Adjust height for smaller screens */
+  }
+
+  .hero-content {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-headline {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .hero-cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 30px 15px;
+    min-height: 70vh; /* Further adjust height for smaller screens */
+  }
+
+  .hero-headline {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .hero-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero-cta-button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}

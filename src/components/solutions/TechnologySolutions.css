@@ -1,0 +1,53 @@
+/* src/components/solutions/TechnologySolutions.css */
+
+.technology-solutions {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #2D3142;
+  }
+  
+  .technology-solutions .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .technology-headline {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .technology-item {
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .technology-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .technology-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .technology-solutions-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .technology-solution {
+    /* background: url('/assets/images/checkmark.png') no-repeat left center; */
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  

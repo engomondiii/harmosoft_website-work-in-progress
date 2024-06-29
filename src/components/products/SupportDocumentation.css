@@ -1,0 +1,58 @@
+/* src/components/products/SupportDocumentation.css */
+
+.support-documentation {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #2D3142;
+  }
+  
+  .support-documentation .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .docs-headline {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .docs-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .doc-item {
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doc-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .doc-type {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .doc-link {
+    color: #2D3142;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .doc-link:hover {
+    color: #FFD700;
+  }
+  

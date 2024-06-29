@@ -1,0 +1,11 @@
+/* src/components/contact/CombinedContact.css */
+
+.combined-contact {
+    padding: 60px 20px;
+    background-color: #F0F0F0;
+  }
+  
+  .combined-contact > * {
+    margin-bottom: 40px;
+  }
+  

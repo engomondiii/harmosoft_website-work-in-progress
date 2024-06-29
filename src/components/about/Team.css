@@ -1,0 +1,82 @@
+/* src/components/about/Team.css */
+
+.team {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  color: #2D3142;
+  animation: fadeInUp 1s ease-out;
+}
+
+.team .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.team-headline {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2D3142;
+  text-align: center;
+}
+
+.team-list-wrapper {
+  overflow-x: auto;
+  display: flex;
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+}
+
+.team-list {
+  display: flex;
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #F0F0F0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-out;
+}
+
+.team-photo {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2D3142;
+}
+
+.team-role {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.team-bio {
+  font-size: 16px;
+  color: #555;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

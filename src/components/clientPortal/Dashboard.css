@@ -1,0 +1,71 @@
+/* src/components/clientPortal/Dashboard.css */
+
+.dashboard {
+    padding: 60px 20px;
+    background-color: #FFFFFF;
+    color: #2D3142;
+  }
+  
+  .dashboard .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .welcome-message {
+    margin-bottom: 40px;
+  }
+  
+  .welcome-message h2 {
+    font-size: 36px;
+  }
+  
+  .dashboard-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .dashboard-sections > div {
+    background-color: #F0F0F0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-sections h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-sections ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-sections li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .settings-button {
+    background-color: #2D3142;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .settings-button:hover {
+    background-color: #FFD700;
+  }
+  
